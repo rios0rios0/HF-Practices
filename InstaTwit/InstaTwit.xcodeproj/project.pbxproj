@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1171E1EF14D2D661001EB0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1171E1EE14D2D661001EB0BC /* UIKit.framework */; };
+		1171E1F114D2D661001EB0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1171E1F014D2D661001EB0BC /* Foundation.framework */; };
+		1171E1F314D2D661001EB0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1171E1F214D2D661001EB0BC /* CoreGraphics.framework */; };
+		1171E1F914D2D661001EB0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1171E1F714D2D661001EB0BC /* InfoPlist.strings */; };
+		1171E1FB14D2D662001EB0BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171E1FA14D2D662001EB0BC /* main.m */; };
+		1171E1FF14D2D662001EB0BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171E1FE14D2D662001EB0BC /* AppDelegate.m */; };
+		1171E20214D2D662001EB0BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171E20114D2D662001EB0BC /* ViewController.m */; };
+		1171E20514D2D662001EB0BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1171E20314D2D662001EB0BC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1171E1EA14D2D661001EB0BC /* InstaTwit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTwit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1171E1EE14D2D661001EB0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1171E1F014D2D661001EB0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1171E1F214D2D661001EB0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1171E1F614D2D661001EB0BC /* InstaTwit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaTwit-Info.plist"; sourceTree = "<group>"; };
+		1171E1F814D2D661001EB0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1171E1FA14D2D662001EB0BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1171E1FC14D2D662001EB0BC /* InstaTwit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaTwit-Prefix.pch"; sourceTree = "<group>"; };
+		1171E1FD14D2D662001EB0BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1171E1FE14D2D662001EB0BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1171E20014D2D662001EB0BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1171E20114D2D662001EB0BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1171E20414D2D662001EB0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1171E1E714D2D661001EB0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171E1EF14D2D661001EB0BC /* UIKit.framework in Frameworks */,
+				1171E1F114D2D661001EB0BC /* Foundation.framework in Frameworks */,
+				1171E1F314D2D661001EB0BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1171E1DF14D2D661001EB0BC = {
+			isa = PBXGroup;
+			children = (
+				1171E1F414D2D661001EB0BC /* InstaTwit */,
+				1171E1ED14D2D661001EB0BC /* Frameworks */,
+				1171E1EB14D2D661001EB0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1171E1EB14D2D661001EB0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1171E1EA14D2D661001EB0BC /* InstaTwit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1171E1ED14D2D661001EB0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1171E1EE14D2D661001EB0BC /* UIKit.framework */,
+				1171E1F014D2D661001EB0BC /* Foundation.framework */,
+				1171E1F214D2D661001EB0BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1171E1F414D2D661001EB0BC /* InstaTwit */ = {
+			isa = PBXGroup;
+			children = (
+				1171E1FD14D2D662001EB0BC /* AppDelegate.h */,
+				1171E1FE14D2D662001EB0BC /* AppDelegate.m */,
+				1171E20014D2D662001EB0BC /* ViewController.h */,
+				1171E20114D2D662001EB0BC /* ViewController.m */,
+				1171E20314D2D662001EB0BC /* ViewController.xib */,
+				1171E1F514D2D661001EB0BC /* Supporting Files */,
+			);
+			path = InstaTwit;
+			sourceTree = "<group>";
+		};
+		1171E1F514D2D661001EB0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1171E1F614D2D661001EB0BC /* InstaTwit-Info.plist */,
+				1171E1F714D2D661001EB0BC /* InfoPlist.strings */,
+				1171E1FA14D2D662001EB0BC /* main.m */,
+				1171E1FC14D2D662001EB0BC /* InstaTwit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1171E1E914D2D661001EB0BC /* InstaTwit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1171E20814D2D662001EB0BC /* Build configuration list for PBXNativeTarget "InstaTwit" */;
+			buildPhases = (
+				1171E1E614D2D661001EB0BC /* Sources */,
+				1171E1E714D2D661001EB0BC /* Frameworks */,
+				1171E1E814D2D661001EB0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaTwit;
+			productName = InstaTwit;
+			productReference = 1171E1EA14D2D661001EB0BC /* InstaTwit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1171E1E114D2D661001EB0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1171E1E414D2D661001EB0BC /* Build configuration list for PBXProject "InstaTwit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1171E1DF14D2D661001EB0BC;
+			productRefGroup = 1171E1EB14D2D661001EB0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1171E1E914D2D661001EB0BC /* InstaTwit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1171E1E814D2D661001EB0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171E1F914D2D661001EB0BC /* InfoPlist.strings in Resources */,
+				1171E20514D2D662001EB0BC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1171E1E614D2D661001EB0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171E1FB14D2D662001EB0BC /* main.m in Sources */,
+				1171E1FF14D2D662001EB0BC /* AppDelegate.m in Sources */,
+				1171E20214D2D662001EB0BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1171E1F714D2D661001EB0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171E1F814D2D661001EB0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1171E20314D2D662001EB0BC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171E20414D2D662001EB0BC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1171E20614D2D662001EB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1171E20714D2D662001EB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1171E20914D2D662001EB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTwit/InstaTwit-Prefix.pch";
+				INFOPLIST_FILE = "InstaTwit/InstaTwit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1171E20A14D2D662001EB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaTwit/InstaTwit-Prefix.pch";
+				INFOPLIST_FILE = "InstaTwit/InstaTwit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1171E1E414D2D661001EB0BC /* Build configuration list for PBXProject "InstaTwit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171E20614D2D662001EB0BC /* Debug */,
+				1171E20714D2D662001EB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1171E20814D2D662001EB0BC /* Build configuration list for PBXNativeTarget "InstaTwit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171E20914D2D662001EB0BC /* Debug */,
+				1171E20A14D2D662001EB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1171E1E114D2D661001EB0BC /* Project object */;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RS</key>
+	<array>
+		<string>Torres</string>
+		<string>Porto Alegre</string>
+		<string>Tramandai</string>
+		<string>Capão da Canoa</string>
+		<string>Palmeira das Missões</string>
+		<string>Uruguaiana</string>
+	</array>
+	<key>SC</key>
+	<array>
+		<string>Florianópolis</string>
+		<string>Lages</string>
+		<string>Sombrio</string>
+		<string>Criciuma</string>
+	</array>
+	<key>PR</key>
+	<array>
+		<string>Curitiba</string>
+		<string>Ponta Grossa</string>
+	</array>
+</dict>
+</plist>

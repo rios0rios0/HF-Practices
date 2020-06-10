@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Fugitive" representedClassName="Fugitive" syncable="YES">
+        <attribute name="bounty" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="captdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="captured" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="desc" attributeType="String" syncable="YES"/>
+        <attribute name="fugitiveID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Fugitive" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
